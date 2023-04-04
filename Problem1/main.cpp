@@ -14,16 +14,12 @@ void exercise1() {
 	Square s3{ 9, 100, 0.3 };
 	
 	// 1. create a polymorphic static array shapes with 6 elements that holds c1, c2, c3 and s1, s2 and s3
-	Shape* shapes[6]{ &c1, c2, &c3, s1, &s2, &s3 };
+	
 	// 2. display all the elements that have an area greater than 10
-	for (Shape* s : shapes) {
-
-	}
+	
 		
 	// 3. display all the circles from the array shapes
-	for (Shape* s : shapes) {
 
-	}
 		
 	delete s1;
 	delete c2;
